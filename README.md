@@ -35,3 +35,14 @@ Flask-Repo-Template/
 ├── README.md
 └── LICENSE
 ```
+
+## TO Run :
+- If you want to broadcast on Localhost
+    ```
+    waitress-serve --listen=localhost:5000 run:app
+    ```
+
+- If you want to broadcast on 0.0.0.0
+    ```
+    waitress-serve --listen=*:5000 run:app
+    ```
