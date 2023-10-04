@@ -1,6 +1,6 @@
 from flask import Blueprint, render_template
 
-gui = Blueprint('frontend', __name__, url_prefix='/gui')
+gui = Blueprint('frontend', __name__, url_prefix='')
 
 
 @gui.route('/', methods=['GET'])
